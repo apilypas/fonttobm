@@ -1,0 +1,6 @@
+src/*/bin
+src/*/obj
+.idea
+.vscode
+*.user
+*.binlog
