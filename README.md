@@ -1,7 +1,7 @@
 # fonttobm
-Utility to convert fonts (TTF) to Bitmap fonts (BMFont format + image). It is implemented in a way that it works under Linux, Windows, and probably other operating systems.
+Utility to convert fonts (TTF) to Bitmap fonts (+BMFont format). It is implemented in a way that it works under Linux, Windows, and probably other operating systems.
 
-BMFont format is usually used in applications, that performance depends on using fonts from textures (for example, games with large amounts of texts). One of popular applications, that works this format is [bmfont](https://angelcode.com/products/bmfont/), that has only Windows builds and requires Wine to run under other platforms. This utility is created with a goal to avoid running under Wine and be easily automated as command line tool can be.
+Bitmap fonts are usually used in applications that performance depends on using fonts from textures (for example, games with large amounts of texts). One of popular applications, that works with this format is [bmfont](https://angelcode.com/products/bmfont/). It also output `fnt` file that helps mapping letters in the texture. This application has only Windows builds and requires Wine to run under other platforms. `fonttobm` is created with a goal to avoid running under Wine and be easily automated as command line tool can be.
 
 ## Command line arguments
 | Name          | Description
