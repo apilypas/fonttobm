@@ -23,5 +23,5 @@ dotnet run --font /path/to/directory/PixelOperator-Bold.ttf --output /path/to/di
 
 Generate from system font file and output results to specific directory, also apply antialiasing:
 ```bash
-dotnet run --font /usr/share/fonts/google-droid-sans-fonts/DroidSans.ttf --output /home/andrius/Temp/ --antialias=true
+dotnet run --font /usr/share/fonts/google-droid-sans-fonts/DroidSans.ttf --output /path/to/directory/ --antialias=true
 ```
